@@ -1,5 +1,5 @@
-# Pytorch tutorial
-<b> Your own browser written in python.</b>
+# Изучаем Pytorch
+<b> Изучаем Pytorch на python.</b>
 <p>
   <img  src="https://img.shields.io/github/stars/BEPb/pytorch_tutorial" />
   <img src="https://img.shields.io/github/contributors/BEPb/pytorch_tutorial" />
@@ -14,33 +14,27 @@
 </p>
 
 
-Read in other languages: [Russian](README.ru.md), [हिन्दी](README.hindi.md), [中國人](README.chinese.md)
-
-
-
 ![GUI](img/pytorch.png)
 
 
-
-## How to install and run
+## Как установить репозиторий
 ____
-### Clone the repository
+### Просто введите в командной строке следующий код
  
 ```sh
-$ cmd
 $ git clone https://github.com/BEPb/pytorch_tutorial
 $ cd pytorch_tutorial
 ```
  
-### Install the necessary packages (Install dependencies)
+### Для установки всех необходимых библиотек ввидите в командной строке:
 ```sh
 $  pip install -r requirements.txt
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Развитие проекта
+Запросы на развитие проекта приветствуются. Для серьезных изменений, пожалуйста, сначала откройте вопрос, чтобы 
+обсудить, что вы хотели бы изменить.
 ____
 
-## License
-
+## Лицензия
 [MIT](LICENSE.txt)
