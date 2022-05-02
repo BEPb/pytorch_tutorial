@@ -1,16 +1,16 @@
 # Pytorch tutorial
 <b> Your own browser written in python.</b>
 <p>
-  <img  src="https://img.shields.io/github/stars/BEPb/Browser" />
-  <img src="https://img.shields.io/github/contributors/BEPb/Browser" />
-  <img src="https://img.shields.io/github/last-commit/BEPb/Browser" />
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=BEPb.Browser" />
-  <img src="https://img.shields.io/github/languages/count/BEPb/Browser" />
-  <img src="https://img.shields.io/github/languages/top/BEPb/Browser" />
+  <img  src="https://img.shields.io/github/stars/BEPb/pytorch_tutorial" />
+  <img src="https://img.shields.io/github/contributors/BEPb/pytorch_tutorial" />
+  <img src="https://img.shields.io/github/last-commit/BEPb/pytorch_tutorial" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=BEPb.pytorch_tutorial" />
+  <img src="https://img.shields.io/github/languages/count/BEPb/pytorch_tutorial" />
+  <img src="https://img.shields.io/github/languages/top/BEPb/pytorch_tutorial" />
 
   <img src="https://img.shields.io/badge/license-MIT-blue.svg?color=f64152" />
-  <img  src="https://img.shields.io/github/issues/BEPb/Browser" />
-  <img  src="https://img.shields.io/github/issues-pr/BEPb/Browser" />
+  <img  src="https://img.shields.io/github/issues/BEPb/pytorch_tutorial" />
+  <img  src="https://img.shields.io/github/issues-pr/BEPb/pytorch_tutorial" />
 </p>
 
 
@@ -28,19 +28,13 @@ ____
  
 ```sh
 $ cmd
-$ git clone https://github.com/BEPb/Browser
-$ cd Browser
+$ git clone https://github.com/BEPb/pytorch_tutorial
+$ cd pytorch_tutorial
 ```
  
 ### Install the necessary packages (Install dependencies)
 ```sh
 $  pip install -r requirements.txt
-```
-
-## Usage
-To launch the GUI:
-```
-python3 -m main
 ```
 
 ## Contributing
