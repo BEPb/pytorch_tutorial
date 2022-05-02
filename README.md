@@ -43,8 +43,4 @@ ____
 
 ## License
 
-
 [MIT](LICENSE.txt)
-
-____
-
