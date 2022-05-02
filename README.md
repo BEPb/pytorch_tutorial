@@ -38,6 +38,7 @@ $  pip install -r requirements.txt
 * [Основы PyTorch](https://github.com/BEPb/pytorch_tutorial/01_основы/README.py)
     - [Знакомство с тензорами](https://github.com/BEPb/pytorch_tutorial/01_основы/01_tensor.py)
     - [Базовые математические операции](https://github.com/BEPb/pytorch_tutorial/01_основы/02_BasicMath.py)
+    - [автоматический градиент](https://github.com/BEPb/pytorch_tutorial/01_основы/03_gradient.py)
 
 
 
