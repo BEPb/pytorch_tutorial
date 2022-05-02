@@ -31,6 +31,15 @@ $ cd pytorch_tutorial
 $  pip install -r requirements.txt
 ```
 
+
+## Оглавление
+
+#### 1. Основы
+* [Основы PyTorch](https://github.com/BEPb/pytorch_tutorial/01_основы/11_Основы_PyTorch/main.py)
+* [Линейная регрессия](https://github.com/BEPb/pytorch_tutorial/01_основы/12_Линейная_регрессия/main.py)
+
+
+
 ## Развитие проекта
 Запросы на развитие проекта приветствуются. Для серьезных изменений, пожалуйста, сначала откройте вопрос, чтобы 
 обсудить, что вы хотели бы изменить.
