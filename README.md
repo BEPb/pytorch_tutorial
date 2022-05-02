@@ -26,7 +26,7 @@ $ git clone https://github.com/BEPb/pytorch_tutorial
 $ cd pytorch_tutorial
 ```
  
-### Для установки всех необходимых библиотек ввидите в командной строке:
+### Для установки всех необходимых библиотек введите в командной строке:
 ```sh
 $  pip install -r requirements.txt
 ```
