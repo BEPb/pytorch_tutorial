@@ -124,7 +124,7 @@ error = nn.CrossEntropyLoss()  # Функция потерь (перекрест
 
 
 # подключаем библиотеки
-import numpy as np
+import numpy as np  # линейная алгебра
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
