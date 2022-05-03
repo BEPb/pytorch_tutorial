@@ -18,6 +18,7 @@
 
 #### 2. Начальный уровень
 * [Начальный уровень](https://github.com/BEPb/pytorch_tutorial/02_начальный_уровень/README.md)
-    - [Знакомство с тензорами](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/01_tensor.py)
+    - [сверточная нейронная сеть](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2
+      %D1%8B/01_convolution.py)
 
 ____
