@@ -10,7 +10,7 @@ Date: 2022-05-03
 import torch  # библиотека pytorch
 import torch.nn as nn  # библиотека нейронной сети pytorch
 import numpy as np  # линейная алгебра
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # библиотека построения графиков
 
 
 # Гипер-параметры
