@@ -40,6 +40,11 @@ $  pip install -r requirements.txt
     - [Базовые математические операции](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/02_BasicMath.py)
     - [автоматический градиент](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/03_gradient.py)
     - [простая нейронная сеть](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/04_simple_neural_network.py)
+    - [чтение и сохранение модели](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/05_model.py)
+    - [линейная регрессия](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/06_linear.py)
+    - [логистическая регрессия](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/07_logistic.py)
+    - [нейронная сеть с прямой связью](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/08_feedforward.py)
+  
 
 
 
