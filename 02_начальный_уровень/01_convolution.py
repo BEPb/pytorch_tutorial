@@ -7,7 +7,6 @@ Author: Andrej Marinchenko
 Date: 2022-05-03
 """
 
-
 import torch
 import torch.nn as nn
 import torchvision
@@ -88,8 +87,7 @@ for epoch in range(num_epochs):
         optimizer.step()
         
         if (i+1) % 100 == 0:
-            print ('Эпоха [{}/{}], Шаг [{}/{}], Ошибка: {:.4f}'
-                   .format(epoch+1, num_epochs, i+1, total_step, loss.item()))
+            print('Эпоха [{}/{}], Шаг [{}/{}], Ошибка: {:.4f}'.format(epoch+1, num_epochs, i+1, total_step, loss.item()))
 
 # Тестирование модели
 model.eval()  # eval режим (batchnorm использует скользящее среднее/дисперсию вместо мини-пакетного среднего/дисперсии)
