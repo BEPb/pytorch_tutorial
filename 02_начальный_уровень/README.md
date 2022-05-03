@@ -21,5 +21,6 @@
     - [сверточная нейронная сеть](https://github.com/BEPb/pytorch_tutorial/blob/master/02_%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C/01_convolution.py)
     - [глубокая остаточной нейронная сеть](https://github.com/BEPb/pytorch_tutorial/blob/master/02_%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C/02_residual.py)
     - [рекурентная нейронная сеть](https://github.com/BEPb/pytorch_tutorial/blob/master/02_%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C/03_recurent.py)
+    - [двунаправленная рекурентная нейронная сеть](https://github.com/BEPb/pytorch_tutorial/blob/master/02_%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C/04_bidirectional.py)
 
 ____
