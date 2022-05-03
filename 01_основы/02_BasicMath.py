@@ -7,7 +7,6 @@ Author: Andrej Marinchenko
 Date: 2022-05-02
 """
 
-import numpy as np  # линейная алгебра
 import torch  # библиотека pytorch
 
 '''
