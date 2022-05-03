@@ -9,7 +9,7 @@ Date: 2022-05-02
 
 import torch  # библиотека pytorch
 from torch.autograd import Variable  # импортировать переменную из библиотеки pytorch
-
+import torch.nn as nn
 
 # ================================================================== #
 #                         Оглавление                                 #
@@ -120,3 +120,47 @@ w.backward()
 print('\n градиент х ', x.grad)    # x.grad = 2
 print('\n градиент y ', y.grad)    # y.grad = 1
 print('\n градиент z ', z.grad)    # z.grad = 1
+
+# ================================================================== #
+#                    4. Пример 4 (Базовый автоградиент)              #
+# ================================================================== #
+
+# Создадим случайные тензоры размерности (10, 3) и (10, 2).
+x = torch.randn(10, 3)
+y = torch.randn(10, 2)
+
+# Создадим полносвязный слой.
+linear = nn.Linear(3, 2)
+print('\n веса линейной модели: ', linear.weight)
+print('\n линейное смещение: ', linear.bias)
+
+# Создадим функцию потерь и оптимизатор
+criterion = nn.MSELoss()
+optimizer = torch.optim.SGD(linear.parameters(), lr=0.01)
+
+# Проход вперёд.
+pred = linear(x)
+
+# Вычисляем ошибку
+loss = criterion(pred, y)
+print('\n ошибка: ', loss.item())
+
+# обратное распространение ошибки
+loss.backward()
+
+# выведем градиенты
+print('\n градиент dL/dw: ', linear.weight.grad)
+print('\n градиент dL/db: ', linear.bias.grad)
+
+# 1-шаговый градиентный спуск.
+optimizer.step()
+
+# Вы также можете выполнить градиентный спуск на низком уровне.
+# linear.weight.data.sub_(0.01 * linear.weight.grad.data)
+# linear.bias.data.sub_(0.01 * linear.bias.grad.data)
+
+
+# Распечатайте потери после 1-ступенчатого градиентного спуска.
+pred = linear(x)
+loss = criterion(pred, y)
+print('\n ошибка после 1-го шага оптимизации: ', loss.item())
