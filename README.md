@@ -35,11 +35,11 @@ $  pip install -r requirements.txt
 ## Оглавление
 
 #### 1. Основы
-* [Основы PyTorch](https://github.com/BEPb/pytorch_tutorial/01_основы/README.md)
-    - [Знакомство с тензорами](https://github.com/BEPb/pytorch_tutorial/01_основы/01_tensor.py)
-    - [Базовые математические операции](https://github.com/BEPb/pytorch_tutorial/01_основы/02_BasicMath.py)
-    - [автоматический градиент](https://github.com/BEPb/pytorch_tutorial/01_основы/03_gradient.py)
-    - [простая нейронная сеть](https://github.com/BEPb/pytorch_tutorial/01_основы/04_simple_neural_network.py)
+* [Основы PyTorch](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/README.md)
+    - [Знакомство с тензорами](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/01_tensor.py)
+    - [Базовые математические операции](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/02_BasicMath.py)
+    - [автоматический градиент](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/03_gradient.py)
+    - [простая нейронная сеть](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/04_simple_neural_network.py)
 
 
 
