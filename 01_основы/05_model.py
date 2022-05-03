@@ -7,9 +7,9 @@ Author: Andrej Marinchenko
 Date: 2022-05-03
 """
 
-import torch
-import torchvision
-import torch.nn as nn
+import torch  # библиотека pytorch
+import torch.nn as nn  # библиотека нейронной сети pytorch
+import torchvision  # Пакет популярных наборов данных
 import torchvision.transforms as transforms
 
 # ================================================================== #
