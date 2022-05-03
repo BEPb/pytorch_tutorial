@@ -126,7 +126,7 @@ Dropout — это метод машинного обучения, при кот
 параметра скорость отсева — вероятность деактивации нейрона. Мы можем применить отсев после любого невыводимого слоя.  
 
 #### 1. Основы
-* [Основы PyTorch](https://github.com/BEPb/pytorch_tutorial/01_основы/README.py)
+* [Основы PyTorch](https://github.com/BEPb/pytorch_tutorial/01_основы/README.md)
     - [Знакомство с тензорами](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/01_tensor.py)
     - [Базовые математические операции](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/02_BasicMath.py)
     - [автоматический градиент](https://github.com/BEPb/pytorch_tutorial/blob/master/01_%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/03_gradient.py)
