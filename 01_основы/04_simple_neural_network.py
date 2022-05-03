@@ -25,6 +25,7 @@ Date: 2022-05-02
  использовать nn.Module для реализации вашего собственного полносвязного уровня. Полносвязный слой, также известный 
  как аффинный слой.
 '''
+
 import torch  # библиотека pytorch
 from torch.autograd import Variable  # импортировать переменную из библиотеки pytorch
 import torch.nn as nn  # библиотека нейронной сети pytorch
@@ -273,9 +274,7 @@ plt.show()
 '''
 
 # Предсказание на данных которые не видела наша модель
-
 df_sub = pd.read_csv('../titanic/gender_submission.csv')  # файл гендерной принадлежности каждого пассажира
-df_true = pd.read_csv('../titanic/submission-titanic-100.csv')  # файл 100% правильными ответами для оценки наших предсказаний
 
 # Подготовим набор данных
 # загрузить данные
@@ -299,25 +298,31 @@ df_test['Age'] = df_test['Age'].fillna(-0.5)
 
 features = ["Pclass", "Sex", "Age", "C", "Q", "S", "Alone"]
 
-X_train = df_test[features].values
-y_train = df_test["Survived"].values
+X_test = df_test[features].values
 
 # Масштабирование функций
 sc = StandardScaler()
-X_test = sc.fit_transform(X_train)
+X_test = sc.fit_transform(X_test)
 
-
-
-# X_test = df_test.iloc[:, 1:].values
 X_test_var = Variable(torch.FloatTensor(X_test), requires_grad=False)
 with torch.no_grad():
     test_result = model(X_test_var)
 values, labels = torch.max(test_result, 1)
 survived = labels.data.numpy()
-print(survived)
-
-
+print("Датафрейм предсказания выживших: \n", survived)
 
 # Сохраним результат предсказания в файл
 submission = pd.DataFrame({'PassengerId': df_sub['PassengerId'], 'Survived': survived})
+print("Датафрейм номер пассажира и его предсказания выживания: \n", submission)
 submission.to_csv('submission.csv', index=False)
+
+# а теперь давайте проверим насколько точно наша модель осуществляет предсказания
+
+df_true = pd.read_csv('../titanic/submission-titanic-100.csv')  # файл 100% правильными ответами для оценки наших предсказаний
+df_sub = pd.read_csv('submission.csv')  # файл с предсказанными ответами
+
+df_diff = pd.concat([df_true, df_sub]).drop_duplicates(keep=False)  # новый фрейм в котором остались только различия
+
+print('Общее количество прогнозов', len(df_sub))
+print('Количество неправильных ответов', len(df_diff)/2)
+print('Процент правильных ответов', round((1 - len(df_diff)/(2 * len(df_true)))*100, 2), "%")
