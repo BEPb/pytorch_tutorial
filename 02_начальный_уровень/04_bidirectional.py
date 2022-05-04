@@ -90,7 +90,7 @@ for epoch in range(num_epochs):
         optimizer.step()
         
         if (i+1) % 100 == 0:
-            print ('Эпоха [{}/{}], Шаг [{}/{}], Ошибка: {:.4f}'
+            print('Эпоха [{}/{}], Шаг [{}/{}], Ошибка: {:.4f}'
                    .format(epoch+1, num_epochs, i+1, total_step, loss.item()))
 
 # Тест модели
